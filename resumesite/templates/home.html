@@ -1,0 +1,140 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joe Bloggs - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Joe Bloggs."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css'%}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot.jpg' %}" alt="Akash Gupta" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Akash Gupta</h1>
+			<h2 class="quickFade delayThree">Software engineer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>akashgupta.gupta16@gmail.com</li>
+				<li>7879556515</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+				
+				<div class="sectionContent">
+					<p>Excited in problem solving.Strong in Database Design, Data Structures and Algorithms. Tech enthusiast and an avid follower of cutting edge tech trends. Enjoy stock market research using technology An experienced Software engineer and an enthusiastic explorer of challenging opportunities in the field of Software Development that could add value to both organisation and self development.Skilled in  Java ,Springboot,Python, and DevOps with Solid knowledge of Data Structure, Algorithms and System Design</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>SDET</h2>
+                    <p class="subDetails">Amazon</p>
+					<p class="subDetails">May 2020 - present</p>
+					<p> Worked on the eCommerce platform on a system that manages post order actions, such as product installations and insurance. Used A/B testing and metrics to build the right experience for the customer based on data points (click ram and sales conversion)</p>
+				</article>
+				
+				<article>
+					<h2>SDET</h2>
+                    <p class="subDetails">Testvagrant</p>
+					<p class="subDetails">December 2018 - January 2020 Testvagrant</p>
+					<p>Independently designed and developed end to end automation framework for one of the leading B2B clients.Responsible for end to end automation for one of the leading B2B clients.Write and Maintain Functional Automated Test Scripts for Web Application across leading browsers(Java, Selenium with Cucumber)
+Continuously upgraded framework to latest code.</p>
+				</article>
+				
+				<article>
+					<h2>Automation test engineer</h2>
+                    <p class="subDetails">Toppr</p>
+					<p class="subDetails">Auguest 2017 - December 2018 </p>
+					<p>Write and Execute Test Cases and Test Scripts, Gather Requirements,Team Management, Functional, Regression Testing RESTful APIs and Web Applications
+Ensured PCI security protocols in both new and recurring transactions.
+Implemented security toggles for fraud card detection in the system.</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Java</li>
+					<li>High level design</li>
+					<li>Low level design</li>
+					<li>Data Structures</li>
+					<li>Python</li>
+					<li>Selenium</li>
+					<li>APPIUM</li>
+					<li>Rest-Assured</li>
+					<li>Web Scrapping</li>
+					<li>SQL</li>
+					<li>Operating System</li>
+					<li>Gson</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>College/University</h2>
+					<p class="subDetails">RGPV Bhopal</p>
+					<p>Bachelor of Engineering</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
