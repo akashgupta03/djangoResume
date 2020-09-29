@@ -1,1 +1,1 @@
-web: gunicorn djangoresume.wsgi
+web: gunicorn djangoResume.wsgi
